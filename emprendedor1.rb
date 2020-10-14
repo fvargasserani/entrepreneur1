@@ -5,3 +5,6 @@ utilidades = precio * usuarios - gastos
 if utilidades > 0 
     puts  utilidades * 0.65
 end
+if utilidades <= 0
+    puts utilidades
+end
